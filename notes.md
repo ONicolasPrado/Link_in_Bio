@@ -1,0 +1,6 @@
+  /* background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; */
+
+  /* backgroud: color image repeat position/size */
