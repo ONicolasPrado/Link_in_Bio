@@ -34,7 +34,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -70,7 +71,7 @@ body * {
   border-radius: 50%;
 
   position: absolute;
-  left: 0 ;
+  left: 0;
   top: 50%;
   z-index: 1;
   transform: translateY(-50%);
@@ -86,7 +87,7 @@ body * {
   width: 64px;
   height: 24px;
   background: var(--surface-color-hover);
-  border: 1PX solid var(--stroke-color);
+  border: 1px solid var(--stroke-color);
   backdrop-filter: blur (4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
