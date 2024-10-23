@@ -6,7 +6,12 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/bg-mobile.jpg);
+  --bg-url: linear-gradient(
+    145deg,
+    rgb(25, 40, 85) 32%,
+    rgb(16, 101, 143) 69%,
+    rgba(106, 198, 220, 1) 100%
+  );
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(55, 255, 255, 0.02);
@@ -16,7 +21,12 @@
 
 .light {
   --text-color: black;
-  --bg-url: url(./assets/bg-mobile-light.jpg);
+  --bg-url: linear-gradient(
+    145deg,
+    rgba(38, 67, 157, 1) 32%,
+    rgba(21, 153, 218, 1) 69%,
+    rgba(106, 198, 220, 1) 100%
+  );
   --stroke-color: rgba(0, 0, 0, 0.4);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -47,6 +57,7 @@ body * {
 }
 
 #profile img {
+  border-radius: 50%;
   width: 120px;
 }
 
@@ -165,11 +176,21 @@ footer {
 
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/bg-desktop.jpg);
+    --bg-url: linear-gradient(
+      145deg,
+      rgb(25, 40, 85) 32%,
+      rgb(16, 101, 143) 69%,
+      rgba(106, 198, 220, 1) 100%
+    );
   }
 
   .light {
-    --bg-url: url(./assets/bg-desktop-light.jpg);
+    --bg-url: linear-gradient(
+      145deg,
+      rgba(38, 67, 157, 1) 32%,
+      rgba(21, 153, 218, 1) 69%,
+      rgba(106, 198, 220, 1) 100%
+    );
   }
 }
 @keyframes slide-in {
